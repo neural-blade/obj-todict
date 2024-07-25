@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "obj-todict"
-version = "0.0.0"
+version = "0.1.0"
 description = "It is a simple utility to recursively convert objects to dictionaries"
 license = "MIT"
 authors = ["neural-blade <carmeloscaccianoce@icloud.com>"]
