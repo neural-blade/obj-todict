@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "obj-todict"
+version = "0.0.0"
+description = "It is a simple utility to recursively convert objects to dictionaries"
+license = "MIT"
+authors = ["neural-blade <carmeloscaccianoce@icloud.com>"]
+readme = "README.md"
+homepage = "https://github.com/neural-blade/obj-todict"
+repository = "https://github.com/neural-blade/obj-todict"
+keywords = ["to_dict", "object to dict", "recursive", "serialization", "utility", "dictionary"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Software Development :: Libraries :: Python Modules"
+]
+packages = [{include = "obj_todict", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
