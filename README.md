@@ -33,4 +33,4 @@ print(todict(example))
 
 # License
 
-This project is licensed under the MIT License. See the [LICENSE]() file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/neural-blade/obj-todict/tree/main?tab=MIT-1-ov-file#MIT-1-ov-file) file for more details.
